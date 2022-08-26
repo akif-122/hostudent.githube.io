@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hostudent</title>
+
+	<!-- FONT AWESOME  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+	<!-- BOOTSTRTAP CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css"/>
+
+	<!-- CUSTOM CSS LINK -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/checkout.css">
+
+
+</head>
+<body>
+
+	<div class="wrapper">
+
+		
+
+		<!-- MOBILE MENU START -->
+		<div class="mobile-menu">
+			<div class="m-menu-close">
+				<button>
+					<i class="fa fa-times"></i>
+				</button>
+			</div>
+
+			<div class="m-content">
+				
+				<div class="search-filter-wrap mb-5 mt-5">
+					<form action="">
+						<div class="search-filter d-flex align-items-center">
+							<div class="search mrg">
+								<label>Lieu</label>
+								<input type="text" placeholder="Rechercher des destinations">
+							</div>
+							<div class="filter mrg">
+								<label>Date</label>
+								<input type="text" placeholder="Quand ?">
+							</div>
+							<div class="filter mrg">
+								<label for="">Voyageurs</label>
+								<input type="text" placeholder="Qui ?" name="">
+							</div>
+							<div class="search-btn">
+								<button><i class="fa fa-search"></i></button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<div class="rigth-section d-flex align-items-center ">
+					 <a class="heart" href="">
+					 	<img src="assets/img/Vector (2).png" width="20px;" alt="">
+					 </a>
+
+					 <div class=" language mx-3">
+					 	<a href="#" class="mDrop-open"><img width="20px" src="assets/img/Vector (3).png" alt=""></i></a>
+					 	<div class="m-Mdrop">
+					 		<h5>Langue</h5>
+					 		<div class="flag-wrap d-flex ">
+					 			<div class="flag">
+					 				<img src="assets/img/flag1.png" alt="">
+					 			</div>
+					 			<div class="flag">
+					 				<img src="assets/img/flag 2.png" alt="">
+					 			</div>
+					 		</div>
+
+					 		<div class="Devise">
+					 			<h5>Devise</h5>
+					 			<select>
+					 				<option>EUR</option>
+					 			</select>
+					 		</div>
+					 	</div>
+					 </div>
+
+					 <div class="user-profile d-flex align-items-center mx-3">
+					 	<div class="bars">
+					 		<img src="assets/img/Group 609 (1).png" alt="">
+					 	</div>
+					 	<div class="profile-pic">
+					 		<img src="assets/img/Vector (4).png" alt="">
+					 	</div>
+					 </div>
+
+					 <div class="nav-button">
+					 	<a href="">
+					 		Devenez hôte 
+					 	</a>
+					 </div>
+
+				</div>
+			</div>
+
+
+		</div>
+		<!-- MOBILE MENU END -->
+
+		<!-- HEADER SECTION START -->
+		<header class="header">
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+					<a href="" class="navbar-brand">
+						<img src="assets/img/logo.png" alt="">
+					</a>
+
+					<div class="search-filter-wrap d-none d-lg-block">
+						<form action="">
+							<div class="search-filter d-flex align-items-center">
+								<div class="search mrg">
+									<label>Lieu </label>
+									<input type="text" placeholder="Rechercher des destinations">
+								</div>
+								<div class="filter mrg">
+									<label>Date</label>
+									<input type="text" placeholder="Quand ?">
+								</div>
+								<div class="filter mrg">
+									<label for="">Voyageurs</label>
+									<input type="text" placeholder="Qui ?" name="">
+								</div>
+								<div class="search-btn">
+									<button><i class="fa fa-search"></i></button>
+								</div>
+							</div>
+						</form>
+					</div>
+
+
+					<div class="rigth-section d-none d-lg-flex align-items-center ">
+						 <a class="heart" href="">
+						 	<img src="assets/img/Vector (2).png" width="20px;" alt="">
+						 </a>
+
+						 <div class="dropdown language mx-3">
+						 	<a href="#" class="lang-drop-open"><img width="20px" src="assets/img/Vector (3).png" alt=""></i></a>
+						 	<div class=" mydrop">
+						 		<h5>Langue</h5>
+						 		<div class="flag-wrap d-flex ">
+						 			<div class="flag">
+						 				<img src="assets/img/flag1.png" alt="">
+						 			</div>
+						 			<div class="flag">
+						 				<img src="assets/img/flag 2.png" alt="">
+						 			</div>
+						 		</div>
+
+						 		<div class="Devise">
+						 			<h5>Devise</h5>
+						 			<select>
+						 				<option>EUR</option>
+						 			</select>
+						 		</div>
+						 	</div>
+						 </div>
+
+						 <div class="user-profile d-flex align-items-center mx-0">
+						 	<div class="bars">
+						 		<img src="assets/img/Group 609 (1).png" alt="">
+
+						 	</div>
+						 	<div class="profile-pic">
+						 		<img src="assets/img/Vector (4).png" alt="">
+						 	</div>
+						 </div>
+
+						 <div class="nav-button">
+						 	<a href="">
+						 		Devenez hôte 
+						 	</a>
+						 </div>
+
+					</div>
+
+					<div class="m-menu-opener d-block d-lg-none">
+						<button>
+							<i class="fa fa-bars"></i>
+						</button>
+					</div>
+
+				</div>
+			</nav>
+		</header>
+		<!-- HEADER SECTION END -->
+		
+		<!-- CHECKOUT SECTION START -->
+		<div class="checkout">
+			<div class="container">
+				<div class="checkout-header">
+					<a href=""><i class="fa fa-angle-left"></i></a>
+					<h2>Confirmer la demande de réservation et payer</h2>
+				</div>
+				<div class="row content-area">
+					<div class="col-lg-8">
+						<div class="chk-logo">
+							<img src="assets/img/Group (1).png" width="170">
+							<p>Chaque réservation comprend une protection gratuite en cas d'annulation par l'hôte, d'inexactitudes dans la description du logement, ainsi que d'autres problèmes comme les difficultés d'accès au logement.</p>
+						</div>
+
+						<div class="votre">
+							<h4>Votre voyage</h4>
+
+							<div class="votre-list d-flex align-items-start justify-content-between">
+								<div class="votre-text">
+									<h5>Dates</h5>
+									<p>24–29 août</p>
+								</div>
+
+								<a href=""><h5>Modifier</h5></a>
+							</div>
+
+							<div class="votre-list d-flex align-items-start justify-content-between">
+								<div class="votre-text">
+									<h5>Voyageurs</h5>
+									<p>1 Voyageurs</p>
+								</div>
+
+								<a href=""><h5>Modifier</h5></a>
+							</div>
+
+						</div>
+
+						<div class="payer">
+							<h4>Choisissez comment vous souhaitez payer</h4>
+
+							<div class="payer-box">
+								<div class="payer-content br-bottom d-flex justify-content-between align-items-start">
+									<div class="payer-text">
+ 										<h6>Payez la totalité</h6>
+										<p>Payez le total maintenant et vous aurez terminé.</p>
+									</div>
+									<div class="payer-price-select d-flex align-items-center">
+										<h5><label for="par-parice1">43,00 €</label></h5>
+										<div class="pay-price-box">
+											<input id="par-parice1" checked type="radio" name="pay-price">
+											<label for="par-parice1"></label>
+										</div>
+									</div>
+								</div>
+
+								<div class="payer-content d-flex justify-content-between align-items-start">
+									<div class="payer-text">
+ 										<h6>Payez une partie maintenant et l'autre plus tard</h6>
+										<p >Payez 12,60 € maintenant et le solde (61,38 €) sera prélevé automatiquement via le même mode de paiement le 15 août 2022. Aucuns frais supplémentaires. 
+
+											
+
+
+
+										</p>
+										<a href="">En savoir plus <i class="fa fa-angle-right"></i></a>
+									</div>
+									<div class="payer-price-select d-flex align-items-center">
+										<h5><label for="par-parice2">12,60 €</label></h5>
+										<div class="pay-price-box">
+											<input id="par-parice2"  type="radio" name="pay-price">
+											<label for="par-parice2"></label>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+
+						<div class="payment-methods">
+							<h4>Payer avec</h4>
+
+							<div class="pay-method-wrap">
+								<div class="method-selection ">
+									<div class="method-selected pay-method">
+										<img src="assets/img/Mask group (12).png" width="30px">
+										<p>Carte de crédit ou de débit</p>
+									</div>
+
+									<button id="pay-methods"><i class="fa fa-angle-up"></i></button>
+								</div>
+
+								<div class="methods">
+
+									<div class="active pay-method">
+										<img src="assets/img/Mask group (12).png" width="30px">
+										<p>Carte de crédit ou de débit</p>
+										<div class="select-icon">
+											<img src="assets/img/Vector (7).png" alt="">
+										</div>
+									</div>
+
+
+									<div class=" pay-method">
+										<img src="assets/img/image 10 (2).png" width="30px">
+										<p>PayPal</p>
+										<div class="select-icon">
+											<img src="assets/img/Vector (7).png" alt="">
+										</div>
+									</div>
+
+									<div class=" pay-method">
+										<img src="assets/img/image 11 (1).png" width="30px">
+										<p>Google Pay</p>
+										<div class="select-icon">
+											<img src="assets/img/Vector (7).png" alt="">
+										</div>
+									</div>
+
+									<div class=" pay-method">
+										<img src="assets/img/image 10 (3).png" width="30px">
+										<p>Apple Pay</p>
+										<div class="select-icon">
+											<img src="assets/img/Vector (7).png" alt="">
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+
+
+							<div class="pay-medthod-detail">
+								<div class="pay-no-d border-p">
+									<input type="text" placeholder="Numero de carte">
+									<div class="payyed d-flex">
+										<div class="pay-no-date">
+											<input type="text" placeholder="Expiration">
+										</div>
+										<div class="pay-no-date">
+											<input type="text" placeholder="Cryptogramme">
+										</div>
+									</div>
+
+								</div>
+
+								<div class="pay-postal border-p">
+									<input type="text" placeholder="Code Postal">
+								</div>
+
+								<div class="pay-region border-p">
+									<label>Pay/region</label>
+									<select>
+										<option>France</option>
+										<option>France</option>
+										<option>France</option>
+									</select>
+								</div>
+
+							</div>
+
+
+						</div>
+
+
+						<div class="coupon">
+							<a href="">Saisissez un coupon</a>
+						</div>
+
+						<div class="faciliter">
+							<h4>Faciliter votre voyage</h4>
+
+							<div class="faci-list-wrap">
+								
+								<div class="faciliter-list">
+									<div class="faci-text">
+										<h6>Envoyez un message à l'hôte</h6>
+										<p>Envoyez un message à l'hôte</p>
+									</div>
+									<a href="">Ajouter</a>
+								</div>
+
+								<div class="faciliter-list">
+									<div class="faci-text">
+										<h6>Numéro de téléphone</h6>
+										<p>Ajoutez et confirmez votre numéro de téléphone afin que Hostudent puisse vous communiquer des informations sur vos voyages.</p>
+									</div>
+									<a href="">Ajouter</a>
+								</div>
+							</div>
+
+							<div class="condeition desc-popup-wrap">
+
+								<h6>Conditions d'annulation</h6>
+								<p><b>Annulation gratuite avant le 23 août</b>. Si vous annulez avant l'arrivée prévue le 24 août, vous aurez droit à un remboursement partiel. <span class="underline" id="popup2">Frais de service</span>
+
+
+								 		<div class="desc-popup" id="popup2Open">
+								 			<button><img src="assets/img/Group 695 (1).png" alt=""></button>
+								 			<p>Ces frais participent au fonctionnement de notre plate-forme et nous permettent d'offrir des services comme l'assistance 24h/24 pendant votre voyage.<br> La TVA est incluse.</p>
+								 		</div>
+
+
+
+									
+
+
+								 <!-- <a href="">En savoir plus</a> -->
+								</p>
+							</div>
+
+						</div>
+
+
+					</div>
+					<div class="col-lg-4 sidebar">
+						<div class="side-bar">
+							<div class="price-section">
+								
+
+								<div class="house-show d-flex">
+									<div class="house-img">
+										<img src="assets/img/Rectangle 1356 (1).png" alt="">
+									</div>
+									<div class="house-show-text">
+										<p>Logement entier : logement</p>
+										<h4>Votre chambre au coeur de Wazemmes</h4>
+										<span><i class="fa fa-star"></i> <b>4,75</b> (134 commentaires)</span>
+									</div>
+								</div>
+
+								<div class="protegee d-flex align-items-center justify-content-between ">
+									<p>Votre réservation est protégée par</p>
+									<img src="assets/img/Group.svg" alt="">
+								</div>
+
+
+								
+
+								<div class="price-list">
+									<h4 class="my-4 py-2">Détails du prix</h4>
+
+									 <div class="p-list d-flex align-items-center justify-content-between">
+									 	<p>37 € x 5 nuit</p>
+									 	<h6>185 €</h6>
+									 </div>
+
+									 <div class="p-list d-flex align-items-center justify-content-between">
+									 	<div class="desc-popup-wrap">
+									 		<p class="underline popup-open" >Frais de service</p>
+									 		<div class="desc-popup">
+									 			<button><img src="assets/img/Group 695 (1).png" alt=""></button>
+									 			<p>Ces frais participent au fonctionnement de notre plate-forme et nous permettent d'offrir des services comme l'assistance 24h/24 pendant votre voyage.<br> La TVA est incluse.</p>
+									 		</div>
+
+									 	</div>
+
+									 	<h6>6 €</h6>
+									 </div>
+
+									 <div  class="p-list d-flex align-items-center justify-content-between">
+									 	<div class="desc-popup-wrap">
+									 		<p class="underline popup-open">Taxe de séjour et frais</p>
+									 		<div class="desc-popup">
+									 			<button><img src="assets/img/Group 695 (1).png" alt=""></button>
+									 			<p>Ces frais participent au fonctionnement de notre plate-forme et nous permettent d'offrir des services comme l'assistance 24h/24 pendant votre voyage.<br> La TVA est incluse.</p>
+									 		</div>
+
+									 	</div>
+
+									 	<h6>5 €</h6>
+									 </div>
+
+								</div>
+
+								<div class="total-price">
+									 <div class="total-list d-flex align-items-center justify-content-between">
+									 	<h5>Total (EUR) <span>37/unit</span></h5>
+									 	<p>196,00 €</p>
+									 </div>
+								</div>
+
+
+							</div>
+
+
+							<div class="chkout-btn">
+								<button>Confirmer et payer</button>
+							</div>
+							
+						</div>
+						
+
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!-- CHECKOUT SECTION END -->
+
+
+		<!-- FOOTER SECTION START -->
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-sm-6 ft-about">
+						<img src="assets/img/Group 237.png">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+						<a href="emailto:hello@hostudent.com"><img src="assets/img/email.png" alt=""> hello@hostudent.com</a>
+
+					</div>
+
+					<div class="col-lg-2 col-sm-6 ft-content">
+						<h3>Hostudent</h3>
+						<ul class="ft-links">
+							<li><a href="">À propos</a></li>
+							<li><a href="">Mot des fondateurs</a></li>
+							<li><a href="">Contact </a></li>
+						</ul>
+					</div>
+
+					<div class="col-lg-3 col-sm-6 ft-content">
+						<h3>Platforms</h3>
+						<ul class="ft-links">
+							<li><a href="">Centre d’aide</a></li>
+							<li><a href="">Déposer une annonce </a></li>
+							<li><a href="">S’inscrire</a></li>
+							<li><a href="">FAQ</a></li>
+						</ul>
+					</div>
+
+					<div class="col-lg-3 col-sm-6 ft-content">
+						<h3>Newsletter</h3>
+
+						<form>
+							<input type="text" placeholder="Address Email">
+							<button>Inscrivez-vous !</button>
+						</form>
+
+						<ul class="social-link">
+							<li><a href="www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="copyrigt">
+				<div class="container">
+					<div class="copy-content d-flex flex-wrap justify-content-center justify-content-lg-between align-items-center">
+						<p class="text-center text-lg-left">© 2022 Hostudent -  Tous droits réservés </p>
+						<ul class="copy-links justify-content-center justify-content-lg-start mt-4 mt-lg-0">
+							<li><a href="">Politique de confidentialité</a></li>
+							<li><a href="">Plan du site</a></li>
+							<li><a href="">Conditions générales</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+		<!-- FOOTER SECTION END -->
+		
+	</div>
+	
+
+
+	<!-- JQUERY JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<!-- BOOTSTRAP JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/js/bootstrap.bundle.min.js"></script>
+
+	<!-- CUSTOM JS -->
+	<script type="text/javascript" src="assets/js/app.js"></script>
+	<script type="text/javascript" src="assets/js/sticky.js"></script>
+
+	<script>
+
+
+
+
+
+
+
+
+
+		let payMethods = document.querySelector("#pay-methods");
+		let methods = document.querySelector(".methods");
+		let payMedthodDetail = document.querySelector(".pay-medthod-detail");
+
+		payMethods.addEventListener("click", function(){
+			methods.classList.toggle("p-none");
+			payMedthodDetail.classList.toggle("p-block");
+			payMethods.classList.toggle("rotate")
+		})
+
+
+
+		
+		 let popup2 = document.querySelector("#popup2");
+		 let popup2Open = document.querySelector("#popup2Open");
+
+
+		popup2.addEventListener("click", function(){
+			popup2Open.style.display = 'block';
+		})
+	</script>
+	
+</body>
+</html>

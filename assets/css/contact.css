@@ -1,0 +1,74 @@
+.contact .contact-header{
+	border-bottom: 1px solid rgba(0,0,0,0.24);
+	padding: 1.5rem 0;
+	padding-bottom: 2.5rem;
+}
+.contact .contact-header .contact-text{
+	width: 80%;
+}
+
+.contact .contact-header .contact-text h2{
+	font-size: 3rem;
+	font-weight: 600;
+	color: #142E3C;
+}
+.contact .contact-header .contact-text p{
+	font-size: 1.5rem;
+	color: #ADADAD;
+	margin: 1.5rem 0;
+
+}
+
+.contact-desc{
+	margin: 3rem 0;
+}
+
+.contact-desc h3{
+	font-size: 2.2rem;
+	line-height: 1.5;
+	font-weight: 600;
+	margin-bottom: 2rem;
+	color: #142F3C;
+}
+.contact-desc .contact-point{
+	margin: 4rem 0;
+}
+
+.contact-desc .contact-point h4{
+	margin: 1.5rem 0;
+	font-size: 1.8rem;
+}
+.contact-desc .contact-point ul{
+	margin-left: 4rem;
+}
+
+.contact-desc .contact-point ul li{
+	margin: 1.5rem;
+	font-size: 1.4rem;
+	color: #787878;
+}
+
+.contact-desc .contact-form{
+	margin-top: 7rem;
+	margin-bottom: 6rem;
+}
+
+.contact-desc .contact-form textarea{
+	border-radius: .5rem;
+	border: 1px solid rgba(0,0,0,0.24);
+	padding: 1.5rem;
+	font-size: 1.4rem;
+	color: #787878;
+}
+
+.contact-desc .contact-form button{
+	margin-top: 3rem;
+	padding: 1.5rem 3rem;
+	border-radius: .5rem;
+	font-size: 1.4rem;
+	color: #787878;
+	width: 200px;
+	display: inline-block !important; 
+	background: transparent;
+	border: 1px solid rgba(0,0,0,0.24);
+}

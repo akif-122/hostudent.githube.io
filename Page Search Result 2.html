@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hostudent</title>
+
+	<!-- FONT AWESOME  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+	<!-- BOOTSTRTAP CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css"/>
+
+	<!-- CUSTOM CSS LINK -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/page2.css">
+
+
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<!-- FILTER POPUP SECTION START -->
+		<div class="filter-popup">
+			<div class="filter-header d-flex justify-content-between">
+				<h5>Filtre</h5>
+
+				<button class="filter-close">
+					<img src="assets/img/Group 695.png" width="20px" alt="">
+				</button>
+
+			</div>
+
+			<div class="filter-content">
+				<form action="">
+					<div class="filter-range-container">
+						<h4>Prix </h4>
+						<div class="filter-range-wrap ">
+							<input type="range" min="5" max="100" value="35" steps="1">
+
+							<div class="sliderValue">
+							   <span>35 €</span>
+							</div>
+						</div>
+						<div class="filter-price">
+							<div class="filter-range-start d-flex justify-content-between align-items-center">
+								 <span>5 €</span> 
+							</div>
+							<div class="filter-range-start">
+								 <span>300 €</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="filters">
+						<h4>Hôte </h4>
+
+						<div class="check-boxes">
+							<div class="check-box">
+								<input type="checkbox" id="ch1">
+								<label for="ch1">étudiant</label>
+							</div>
+
+							<div class="check-box">
+								<input type="checkbox" id="ch2">
+								<label for="ch2">Non étudiant</label>
+							</div>
+						</div>
+
+
+						<h4>Type d'hébergement</h4>
+						<div class="check-boxes">
+							<div class="check-box">
+								<input type="checkbox" id="ch3">
+								<label for="ch3">Maison</label>
+							</div>
+
+							<div class="check-box">
+								<input type="checkbox" id="ch4">
+								<label for="ch4">Appartement</label>
+							</div>
+
+							<div class="check-box">
+								<input type="checkbox" id="ch5">
+								<label for="ch5">studio</label>
+							</div>
+
+							<div class="check-box">
+								<input type="checkbox" id="ch6">
+								<label for="ch6">chambre</label>
+							</div>
+						</div>
+
+						<h4>Type de couchage</h4>
+						<div class="check-boxes">
+							<div class="check-box">
+								<input type="checkbox" id="ch7">
+								<label for="ch7">Lit double</label>
+							</div>
+
+							<div class="check-box">
+								<input type="checkbox" id="ch8">
+								<label for="ch8">lit simple</label>
+							</div>
+
+							<div class="check-box">
+								<input type="checkbox" id="ch9">
+								<label for="ch9">Matelas</label>
+							</div>
+
+							<div class="check-box">
+								<input type="checkbox" id="ch10">
+								<label for="ch10">clic-clac</label>
+							</div>
+
+
+							<div class="check-box">
+								<input type="checkbox" id="ch11">
+								<label for="ch11">Canapé simple</label>
+							</div>
+
+							<div class="check-box">
+								<input type="checkbox" id="ch12">
+								<label for="ch12">canapé convertible</label>
+							</div>
+
+							<div class="check-box">
+								<input type="checkbox" id="ch13">
+								<label for="ch13">Canapé </label>
+							</div>
+
+						</div>
+
+
+					</div>
+
+					<div class="filter-btns">
+						<a href="">tOUT eFFACER</a>
+
+						<button type="submit">Afficher 600 logements</button>
+					</div>
+
+				</form>
+			</div>
+
+		</div>
+		<!-- FILTER POPUP SECTION END -->
+
+		<!-- MOBILE MENU START -->
+		<div class="mobile-menu">
+			<div class="m-menu-close">
+				<button>
+					<i class="fa fa-times"></i>
+				</button>
+			</div>
+
+			<div class="m-content">
+				
+				<div class="search-filter-wrap mb-5 mt-5">
+					<form action="">
+						<div class="search-filter d-flex align-items-center">
+							<div class="search mrg">
+								<label>Lieu</label>
+								<input type="text" placeholder="Rechercher des destinations">
+							</div>
+							<div class="filter mrg">
+								<label>Date</label>
+								<input type="text" placeholder="Quand ?">
+							</div>
+							<div class="filter mrg">
+								<label for="">Voyageurs</label>
+								<input type="text" placeholder="Qui ?" name="">
+							</div>
+							<div class="search-btn">
+								<button><i class="fa fa-search"></i></button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<div class="rigth-section d-flex align-items-center ">
+					 <a class="heart" href="">
+					 	<img src="assets/img/Vector (2).png" width="20px;" alt="">
+					 </a>
+
+					 <div class=" language mx-3">
+					 	<a href="#" class="mDrop-open"><img width="20px" src="assets/img/Vector (3).png" alt=""></i></a>
+					 	<div class="m-Mdrop">
+					 		<h5>Langue</h5>
+					 		<div class="flag-wrap d-flex ">
+					 			<div class="flag">
+					 				<img src="assets/img/flag1.png" alt="">
+					 			</div>
+					 			<div class="flag">
+					 				<img src="assets/img/flag 2.png" alt="">
+					 			</div>
+					 		</div>
+
+					 		<div class="Devise">
+					 			<h5>Devise</h5>
+					 			<select>
+					 				<option>EUR</option>
+					 			</select>
+					 		</div>
+					 	</div>
+					 </div>
+
+					 <div class="user-profile d-flex align-items-center mx-3">
+					 	<div class="bars">
+					 		<img src="assets/img/Group 609 (1).png" alt="">
+					 	</div>
+					 	<div class="profile-pic">
+					 		<img src="assets/img/Vector (4).png" alt="">
+					 	</div>
+					 </div>
+
+					 <div class="nav-button">
+					 	<a href="">
+					 		Devenez hôte 
+					 	</a>
+					 </div>
+
+				</div>
+			</div>
+
+
+		</div>
+		<!-- MOBILE MENU END -->
+
+		<!-- HEADER SECTION START -->
+		<header class="header">
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+					<a href="" class="navbar-brand">
+						<img src="assets/img/logo.png" alt="">
+					</a>
+
+					<div class="search-filter-wrap d-none d-lg-block">
+						<form action="">
+							<div class="search-filter d-flex align-items-center">
+								<div class="search mrg">
+									<label>Lieu </label>
+									<input type="text" placeholder="Rechercher des destinations">
+								</div>
+								<div class="filter mrg">
+									<label>Date</label>
+									<input type="text" placeholder="Quand ?">
+								</div>
+								<div class="filter mrg">
+									<label for="">Voyageurs</label>
+									<input type="text" placeholder="Qui ?" name="">
+								</div>
+								<div class="search-btn">
+									<button><i class="fa fa-search"></i></button>
+								</div>
+							</div>
+						</form>
+					</div>
+
+
+					<div class="rigth-section d-none d-lg-flex align-items-center ">
+						 <a class="heart" href="">
+						 	<img src="assets/img/Vector (2).png" width="20px;" alt="">
+						 </a>
+
+						 <div class="dropdown language mx-3">
+						 	<a href="#" class="lang-drop-open"><img width="20px" src="assets/img/Vector (3).png" alt=""></i></a>
+						 	<div class=" mydrop">
+						 		<h5>Langue</h5>
+						 		<div class="flag-wrap d-flex ">
+						 			<div class="flag">
+						 				<img src="assets/img/flag1.png" alt="">
+						 			</div>
+						 			<div class="flag">
+						 				<img src="assets/img/flag 2.png" alt="">
+						 			</div>
+						 		</div>
+
+						 		<div class="Devise">
+						 			<h5>Devise</h5>
+						 			<select>
+						 				<option>EUR</option>
+						 			</select>
+						 		</div>
+						 	</div>
+						 </div>
+
+						 <div class="user-profile d-flex align-items-center mx-0">
+						 	<div class="bars">
+						 		<img src="assets/img/Group 609 (1).png" alt="">
+
+						 	</div>
+						 	<div class="profile-pic">
+						 		<img src="assets/img/Vector (4).png" alt="">
+						 	</div>
+						 </div>
+
+						 <div class="nav-button">
+						 	<a href="">
+						 		Devenez hôte 
+						 	</a>
+						 </div>
+
+					</div>
+
+					<div class="m-menu-opener d-block d-lg-none">
+						<button>
+							<i class="fa fa-bars"></i>
+						</button>
+					</div>
+
+				</div>
+			</nav>
+		</header>
+		<!-- HEADER SECTION END -->
+		
+		<!-- HOUSE SECTION START -->
+		<div class="house-section">
+			<div class="row pl-0 pl-lg-5 pl-xl-0">
+				<div class=" offset-xl-1 col-lg-8 col-xl-7  houses px-5 px-lg-0">
+					<div class="house-heading">
+						<div class="house-h-text">
+							<h4>Plus de 1 000 logements</h4>
+							<p>Classement par ordre de pertinence</p>
+						</div>
+						<div class="house-filter">
+							<button><img src="assets/img/Vector (5).png" width="20px" alt=""> Filtres</button>
+						</div>
+					</div>
+
+
+					<!-- HOUSE GALLERY -->
+					<div class="row house-gallery ">
+						<div class="col-md-6">
+							<div class="house-gallery-content">
+								<div class="gallery-view">
+									<img src="assets/img/Rectangle 7.png" width="100%" alt="">
+									<span class="gl-label">Promoted</span>									
+									<div class="gl-heart">
+										<img src="assets/img/Vector (6).png" width="20px" alt="">
+									</div>
+								</div>
+
+								<div class="gallery-text">
+									<div class="gl-text-heading d-flex justify-content-between flex-nowrap">
+										<div class="text">
+											<a href=""><h4>Lorem ipsum dolor sit amet adipis elit consectetur.</h4></a>
+											<span>Particulier</span>
+										</div>
+										<div class="rating ">
+											<p class="d-flex flex-nowrap align-items-center my-0"><i class="fa fa-star"></i> 4.17</p>
+										</div>
+									</div>
+
+									<div class="house-detail">
+										<p><img src="assets/img/Mask group (7).png" width="20px" alt=""> 5</p>
+										<p><img src="assets/img/Mask group (8).png" width="20px" alt=""> 3</p>
+										<p><img src="assets/img/Mask group (9).png" width="20px" alt=""> 2</p>
+										<p><img src="assets/img/Mask group (10).png" width="20px" alt=""> 2</p>
+										<p><img src="assets/img/Mask group (11).png" width="20px" alt=""> Paris, France</p>
+									</div>
+
+									<div class="house-price">
+										<h3>35.00 € <span>/ Nuit</span></h3>
+										<a href="">95 € au total</a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6">
+							<div class="house-gallery-content">
+								<div class="gallery-view">
+									<img src="assets/img/Rectangle 7.png" width="100%" alt="">
+									
+									<div class="gl-heart">
+										<img src="assets/img/Vector (6).png" width="20px" alt="">
+									</div>
+								</div>
+
+								<div class="gallery-text">
+									<div class="gl-text-heading d-flex justify-content-between flex-nowrap">
+										<div class="text">
+											<a href=""><h4>Lorem ipsum dolor sit amet adipis elit consectetur.</h4></a>
+											<span>Particulier</span>
+										</div>
+										<div class="rating ">
+											<p class="d-flex flex-nowrap align-items-center my-0"><i class="fa fa-star"></i> 4.17</p>
+										</div>
+									</div>
+
+									<div class="house-detail">
+										<p><img src="assets/img/Mask group (7).png" width="20px" alt=""> 5</p>
+										<p><img src="assets/img/Mask group (8).png" width="20px" alt=""> 3</p>
+										<p><img src="assets/img/Mask group (9).png" width="20px" alt=""> 2</p>
+										<p><img src="assets/img/Mask group (10).png" width="20px" alt=""> 2</p>
+										<p><img src="assets/img/Mask group (11).png" width="20px" alt=""> Paris, France</p>
+									</div>
+
+									<div class="house-price">
+										<h3>35.00 € <span>/ Nuit</span></h3>
+										<a href="">95 € au total</a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6">
+							<div class="house-gallery-content">
+								<div class="gallery-view">
+									<img src="assets/img/Rectangle 7.png" width="100%" alt="">
+									
+									<div class="gl-heart">
+										<img src="assets/img/Vector (6).png" width="20px" alt="">
+									</div>
+								</div>
+
+								<div class="gallery-text">
+									<div class="gl-text-heading d-flex justify-content-between flex-nowrap">
+										<div class="text">
+											<a href=""><h4>Lorem ipsum dolor sit amet adipis elit consectetur.</h4></a>
+											<span>Particulier</span>
+										</div>
+										<div class="rating ">
+											<p class="d-flex flex-nowrap align-items-center my-0"><i class="fa fa-star"></i> 4.17</p>
+										</div>
+									</div>
+
+									<div class="house-detail">
+										<p><img src="assets/img/Mask group (7).png" width="20px" alt=""> 5</p>
+										<p><img src="assets/img/Mask group (8).png" width="20px" alt=""> 3</p>
+										<p><img src="assets/img/Mask group (9).png" width="20px" alt=""> 2</p>
+										<p><img src="assets/img/Mask group (10).png" width="20px" alt=""> 2</p>
+										<p><img src="assets/img/Mask group (11).png" width="20px" alt=""> Paris, France</p>
+									</div>
+
+									<div class="house-price">
+										<h3>35.00 € <span>/ Nuit</span></h3>
+										<a href="">95 € au total</a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-md-6">
+							<div class="house-gallery-content">
+								<div class="gallery-view">
+									<img src="assets/img/Rectangle 7.png" width="100%" alt="">
+									
+									<div class="gl-heart">
+										<img src="assets/img/Vector (6).png" width="20px" alt="">
+									</div>
+								</div>
+
+								<div class="gallery-text">
+									<div class="gl-text-heading d-flex justify-content-between flex-nowrap">
+										<div class="text">
+											<a href=""><h4>Lorem ipsum dolor sit amet adipis elit consectetur.</h4></a>
+											<span>Particulier</span>
+										</div>
+										<div class="rating ">
+											<p class="d-flex flex-nowrap align-items-center my-0"><i class="fa fa-star"></i> 4.17</p>
+										</div>
+									</div>
+
+									<div class="house-detail">
+										<p><img src="assets/img/Mask group (7).png" width="20px" alt=""> 5</p>
+										<p><img src="assets/img/Mask group (8).png" width="20px" alt=""> 3</p>
+										<p><img src="assets/img/Mask group (9).png" width="20px" alt=""> 2</p>
+										<p><img src="assets/img/Mask group (10).png" width="20px" alt=""> 2</p>
+										<p><img src="assets/img/Mask group (11).png" width="20px" alt=""> Paris, France</p>
+									</div>
+
+									<div class="house-price">
+										<h3>35.00 € <span>/ Nuit</span></h3>
+										<a href="">95 € au total</a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6">
+							<div class="house-gallery-content">
+								<div class="gallery-view">
+									<img src="assets/img/Rectangle 7.png" width="100%" alt="">
+									
+									<div class="gl-heart">
+										<img src="assets/img/Vector (6).png" width="20px" alt="">
+									</div>
+								</div>
+
+								<div class="gallery-text">
+									<div class="gl-text-heading d-flex justify-content-between flex-nowrap">
+										<div class="text">
+											<a href=""><h4>Lorem ipsum dolor sit amet adipis elit consectetur.</h4></a>
+											<span>Particulier</span>
+										</div>
+										<div class="rating ">
+											<p class="d-flex flex-nowrap align-items-center my-0"><i class="fa fa-star"></i> 4.17</p>
+										</div>
+									</div>
+
+									<div class="house-detail">
+										<p><img src="assets/img/Mask group (7).png" width="20px" alt=""> 5</p>
+										<p><img src="assets/img/Mask group (8).png" width="20px" alt=""> 3</p>
+										<p><img src="assets/img/Mask group (9).png" width="20px" alt=""> 2</p>
+										<p><img src="assets/img/Mask group (10).png" width="20px" alt=""> 2</p>
+										<p><img src="assets/img/Mask group (11).png" width="20px" alt=""> Paris, France</p>
+									</div>
+
+									<div class="house-price">
+										<h3>35.00 € <span>/ Nuit</span></h3>
+										<a href="">95 € au total</a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6">
+							<div class="house-gallery-content">
+								<div class="gallery-view">
+									<img src="assets/img/Rectangle 7.png" width="100%" alt="">
+									
+									<div class="gl-heart">
+										<img src="assets/img/Vector (6).png" width="20px" alt="">
+									</div>
+								</div>
+
+								<div class="gallery-text">
+									<div class="gl-text-heading d-flex justify-content-between flex-nowrap">
+										<div class="text">
+											<a href=""><h4>Lorem ipsum dolor sit amet adipis elit consectetur.</h4></a>
+											<span>Particulier</span>
+										</div>
+										<div class="rating ">
+											<p class="d-flex flex-nowrap align-items-center my-0"><i class="fa fa-star"></i> 4.17</p>
+										</div>
+									</div>
+
+									<div class="house-detail">
+										<p><img src="assets/img/Mask group (7).png" width="20px" alt=""> 5</p>
+										<p><img src="assets/img/Mask group (8).png" width="20px" alt=""> 3</p>
+										<p><img src="assets/img/Mask group (9).png" width="20px" alt=""> 2</p>
+										<p><img src="assets/img/Mask group (10).png" width="20px" alt=""> 2</p>
+										<p><img src="assets/img/Mask group (11).png" width="20px" alt=""> Paris, France</p>
+									</div>
+
+									<div class="house-price">
+										<h3>35.00 € <span>/ Nuit</span></h3>
+										<a href="">95 € au total</a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+
+
+					</div>
+					<!-- HOUSE GALLERY ./ -->
+
+					<div class="my-pagination">
+						<ul>
+							<li><a href="" class="active">1</a></li>
+							<li><a href="">2</a></li>
+							<li><a href="" class="pager-arrow-btn"><i class="fa fa-angle-right"></i></a></li>
+						</ul>
+					</div>
+
+
+				</div>
+
+				<div class="col-lg-4  house-map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d106285.55763614972!2d73.05297920000001!3d33.6461824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1661166177694!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+
+			</div>
+		</div>
+		<!-- HOUSE SECTION END -->
+
+
+		<!-- FOOTER SECTION START -->
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-sm-6 ft-about">
+						<img src="assets/img/Group 237.png">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+						<a href="emailto:hello@hostudent.com"><img src="assets/img/email.png" alt=""> hello@hostudent.com</a>
+
+					</div>
+
+					<div class="col-lg-2 col-sm-6 ft-content">
+						<h3>Hostudent</h3>
+						<ul class="ft-links">
+							<li><a href="">À propos</a></li>
+							<li><a href="">Mot des fondateurs</a></li>
+							<li><a href="">Contact </a></li>
+						</ul>
+					</div>
+
+					<div class="col-lg-3 col-sm-6 ft-content">
+						<h3>Platforms</h3>
+						<ul class="ft-links">
+							<li><a href="">Centre d’aide</a></li>
+							<li><a href="">Déposer une annonce </a></li>
+							<li><a href="">S’inscrire</a></li>
+							<li><a href="">FAQ</a></li>
+						</ul>
+					</div>
+
+					<div class="col-lg-3 col-sm-6 ft-content">
+						<h3>Newsletter</h3>
+
+						<form>
+							<input type="text" placeholder="Address Email">
+							<button>Inscrivez-vous !</button>
+						</form>
+
+						<ul class="social-link">
+							<li><a href="www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="copyrigt">
+				<div class="container">
+					<div class="copy-content d-flex flex-wrap justify-content-center justify-content-lg-between align-items-center">
+						<p class="text-center text-lg-left">© 2022 Hostudent -  Tous droits réservés </p>
+						<ul class="copy-links justify-content-center justify-content-lg-start mt-4 mt-lg-0">
+							<li><a href="">Politique de confidentialité</a></li>
+							<li><a href="">Plan du site</a></li>
+							<li><a href="">Conditions générales</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+		<!-- FOOTER SECTION END -->
+		
+	</div>
+	
+
+
+	<!-- JQUERY JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<!-- BOOTSTRAP JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/js/bootstrap.bundle.min.js"></script>
+
+	<!-- CUSTOM JS -->
+	<script type="text/javascript" src="assets/js/app.js"></script>
+	<script type="text/javascript">
+		 const slideValue = document.querySelector("span");
+		 const inputSlider = document.querySelector("input");
+
+		inputSlider.oninput = (()=>{
+		  let value = inputSlider.value;
+		  slideValue.textContent = value + " €";
+		  slideValue.style.left = (value) + "%";
+		  slideValue.classList.add("show");
+		});
+
+		inputSlider.onblur = (()=>{
+		  slideValue.classList.remove("show");
+		});
+
+
+		// POPUP
+		let filter_popup = document.querySelector(".filter-popup");
+		let houseFilter_open = document.querySelector(".house-filter button");
+		let filterClose = document.querySelector(".filter-close");
+
+		houseFilter_open.addEventListener("click", ()=>{
+			filter_popup.style.display = "block";
+		})
+
+		filter_popup.addEventListener("click", ()=>{
+			filter_popup.style.display = "block";
+		},true)
+
+		filterClose.addEventListener("click", ()=>{
+			filter_popup.style.display = "none";
+		})
+
+		body.addEventListener("click", ()=>{
+			filter_popup.style.display = "none";
+		},true)
+	</script>
+</body>
+</html>
